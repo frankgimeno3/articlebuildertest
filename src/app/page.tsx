@@ -8,7 +8,7 @@ const articlesArray = [
     articleId:"001",
     articleCountries:["Spain"],
     articleCategories:["cat1", "cat2", "cat3", "cat4"],
-    miniatureSrc: "img1.jpg",
+    miniatureSrc: "/art",
     selectedSrc: "https://previews.123rf.com/images/elenavdovina/elenavdovina1702/elenavdovina170200009/70843685-fondo-transparente-azul-categor%C3%ADas-de-productos-tienda-en-l%C3%ADnea-fondo-azul-sin-fisuras-con-los.jpg",
     tituloMiniatura: "Artículo 1",
     subtituloMiniatura: "Subtítulo 1"
@@ -17,7 +17,7 @@ const articlesArray = [
     articleId:"002",
     articleCountries:["Spain"],
     articleCategories:["cat1", "cat2"],
-    miniatureSrc: "img2.jpg",
+    miniatureSrc: "/art",
     selectedSrc: "https://previews.123rf.com/images/elenavdovina/elenavdovina1702/elenavdovina170200009/70843685-fondo-transparente-azul-categor%C3%ADas-de-productos-tienda-en-l%C3%ADnea-fondo-azul-sin-fisuras-con-los.jpg",
     tituloMiniatura: "Artículo 2",
     subtituloMiniatura: "Subtítulo 2"
@@ -26,7 +26,7 @@ const articlesArray = [
     articleId:"003",
     articleCountries:["Spain"],
     articleCategories:["cat1"],
-    miniatureSrc: "img3.jpg",
+    miniatureSrc: "/art",
     selectedSrc: "https://previews.123rf.com/images/elenavdovina/elenavdovina1702/elenavdovina170200009/70843685-fondo-transparente-azul-categor%C3%ADas-de-productos-tienda-en-l%C3%ADnea-fondo-azul-sin-fisuras-con-los.jpg",
     tituloMiniatura: "Artículo 3",
     subtituloMiniatura: "Subtítulo 3"
@@ -35,7 +35,7 @@ const articlesArray = [
     articleId:"004",
     articleCountries:["Portugal"],
     articleCategories:["cat2", "cat3", "cat4"],
-    miniatureSrc: "img4.jpg",
+    miniatureSrc: "/art",
     selectedSrc: "https://previews.123rf.com/images/elenavdovina/elenavdovina1702/elenavdovina170200009/70843685-fondo-transparente-azul-categor%C3%ADas-de-productos-tienda-en-l%C3%ADnea-fondo-azul-sin-fisuras-con-los.jpg",
     tituloMiniatura: "Artículo 4",
     subtituloMiniatura: "Subtítulo 4"
@@ -44,7 +44,7 @@ const articlesArray = [
     articleId:"005",
     articleCountries:["Portugal"],
     articleCategories:["cat3", "cat4"],
-    miniatureSrc: "img5.jpg",
+    miniatureSrc: "/art",
     selectedSrc: "https://previews.123rf.com/images/elenavdovina/elenavdovina1702/elenavdovina170200009/70843685-fondo-transparente-azul-categor%C3%ADas-de-productos-tienda-en-l%C3%ADnea-fondo-azul-sin-fisuras-con-los.jpg",
     tituloMiniatura: "Artículo 5",
     subtituloMiniatura: "Subtítulo 5"
@@ -53,7 +53,7 @@ const articlesArray = [
     articleId:"006",
     articleCountries:["Spain","Portugal"],
     articleCategories:["cat3", "cat4"],
-    miniatureSrc: "img6.jpg",
+    miniatureSrc: "/art",
     selectedSrc: "https://previews.123rf.com/images/elenavdovina/elenavdovina1702/elenavdovina170200009/70843685-fondo-transparente-azul-categor%C3%ADas-de-productos-tienda-en-l%C3%ADnea-fondo-azul-sin-fisuras-con-los.jpg",
     tituloMiniatura: "Artículo 6",
     subtituloMiniatura: "Subtítulo 6"
@@ -62,7 +62,7 @@ const articlesArray = [
     articleId:"007",
     articleCountries:["Spain", "Portugal"],
     articleCategories:["cat3", "cat4"],
-    miniatureSrc: "img7.jpg",
+    miniatureSrc: "/art",
     selectedSrc: "https://previews.123rf.com/images/elenavdovina/elenavdovina1702/elenavdovina170200009/70843685-fondo-transparente-azul-categor%C3%ADas-de-productos-tienda-en-l%C3%ADnea-fondo-azul-sin-fisuras-con-los.jpg",
     tituloMiniatura: "Artículo 7",
     subtituloMiniatura: "Subtítulo 7"
