@@ -6,17 +6,46 @@ import ArticleMiniature from "./components/ArticleMiniature";
 const articlesArray = [
   {
     miniatureSrc: "img1.jpg",
-    selectedSrc: "img1_large.jpg",
+    selectedSrc: "https://previews.123rf.com/images/elenavdovina/elenavdovina1702/elenavdovina170200009/70843685-fondo-transparente-azul-categor%C3%ADas-de-productos-tienda-en-l%C3%ADnea-fondo-azul-sin-fisuras-con-los.jpg",
     tituloMiniatura: "Artículo 1",
     subtituloMiniatura: "Subtítulo 1"
   },
   {
     miniatureSrc: "img2.jpg",
-    selectedSrc: "img2_large.jpg",
+    selectedSrc: "https://previews.123rf.com/images/elenavdovina/elenavdovina1702/elenavdovina170200009/70843685-fondo-transparente-azul-categor%C3%ADas-de-productos-tienda-en-l%C3%ADnea-fondo-azul-sin-fisuras-con-los.jpg",
     tituloMiniatura: "Artículo 2",
     subtituloMiniatura: "Subtítulo 2"
   },
-  // ... puedes seguir agregando más artículos
+  {
+    miniatureSrc: "img3.jpg",
+    selectedSrc: "https://previews.123rf.com/images/elenavdovina/elenavdovina1702/elenavdovina170200009/70843685-fondo-transparente-azul-categor%C3%ADas-de-productos-tienda-en-l%C3%ADnea-fondo-azul-sin-fisuras-con-los.jpg",
+    tituloMiniatura: "Artículo 3",
+    subtituloMiniatura: "Subtítulo 3"
+  },
+  {
+    miniatureSrc: "img4.jpg",
+    selectedSrc: "https://previews.123rf.com/images/elenavdovina/elenavdovina1702/elenavdovina170200009/70843685-fondo-transparente-azul-categor%C3%ADas-de-productos-tienda-en-l%C3%ADnea-fondo-azul-sin-fisuras-con-los.jpg",
+    tituloMiniatura: "Artículo 4",
+    subtituloMiniatura: "Subtítulo 4"
+  },
+  {
+    miniatureSrc: "img5.jpg",
+    selectedSrc: "https://previews.123rf.com/images/elenavdovina/elenavdovina1702/elenavdovina170200009/70843685-fondo-transparente-azul-categor%C3%ADas-de-productos-tienda-en-l%C3%ADnea-fondo-azul-sin-fisuras-con-los.jpg",
+    tituloMiniatura: "Artículo 5",
+    subtituloMiniatura: "Subtítulo 5"
+  },
+  {
+    miniatureSrc: "img6.jpg",
+    selectedSrc: "https://previews.123rf.com/images/elenavdovina/elenavdovina1702/elenavdovina170200009/70843685-fondo-transparente-azul-categor%C3%ADas-de-productos-tienda-en-l%C3%ADnea-fondo-azul-sin-fisuras-con-los.jpg",
+    tituloMiniatura: "Artículo 6",
+    subtituloMiniatura: "Subtítulo 6"
+  },
+  {
+    miniatureSrc: "img7.jpg",
+    selectedSrc: "https://previews.123rf.com/images/elenavdovina/elenavdovina1702/elenavdovina170200009/70843685-fondo-transparente-azul-categor%C3%ADas-de-productos-tienda-en-l%C3%ADnea-fondo-azul-sin-fisuras-con-los.jpg",
+    tituloMiniatura: "Artículo 7",
+    subtituloMiniatura: "Subtítulo 7"
+  },
 ];
 
 export default function Home() {
@@ -27,10 +56,10 @@ export default function Home() {
   }
 
   return (
-    <div className="flex flex-col min-h-screen gap-6 p-4">
+    <div className="flex flex-col min-h-screen gap-6 p-4 bg-white text-gray-500 ">
       <div className="flex flex-row justify-between items-center">
         <p className="text-xl font-bold">Galería de artículos</p>
-        <div className="bg-transparent border border-gray-100 text-gray-500 rounded shadow px-2 py-1 flex gap-2 items-center">
+        <div className="bg-transparent border border-gray-100  rounded shadow px-2 py-1 flex gap-2 items-center">
           <input
             className="w-full bg-transparent outline-none"
             placeholder="Buscar por coincidencias"
