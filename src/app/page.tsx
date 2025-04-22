@@ -80,7 +80,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen gap-6 p-4 bg-white text-gray-500 ">
       <div className="flex flex-row justify-between items-center">
         <p className="text-xl font-bold">Galería de artículos</p>
-        <div className="bg-transparent border border-gray-100  rounded shadow px-2 py-1 flex gap-2 items-center">
+        <div className="p-5 bg-transparent border border-gray-100  rounded shadow px-2 py-1 flex gap-2 items-center">
           <input
             className="w-full bg-transparent outline-none"
             placeholder="Buscar por coincidencias"

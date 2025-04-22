@@ -15,7 +15,7 @@ const ArticleMiniature: FC<ArticleMiniatureProps> = ({ miniatureSrc, selectedSrc
         router.push(`${srcSelected}`)
     }
     return (
-        <div className='flex flex-col bg-white hover:bg-gray-100' onClick={() => { handleRedirection(miniatureSrc) }}>
+        <div className='flex flex-col bg-white hover:bg-gray-100 p-5 m-5' onClick={() => { handleRedirection(miniatureSrc) }}>
             <Image height={100} width={100} src={`${selectedSrc}`} alt='miniatureImage' />
             <div className='p-3 flex flex-col'>
                 <p className='text-xl'>{tituloMiniatura}</p>
