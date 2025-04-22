@@ -13,7 +13,7 @@ interface ArticleContent {
 
 const Art: FC = () => {
   const articleContent: ArticleContent = {
-    mainImageSrc: "/images/main.jpg",
+    mainImageSrc: "https://previews.123rf.com/images/elenavdovina/elenavdovina1702/elenavdovina170200009/70843685-fondo-transparente-azul-categor%C3%ADas-de-productos-tienda-en-l%C3%ADnea-fondo-azul-sin-fisuras-con-los.jpg",
     mainTitle: "Título principal del artículo",
     subtitle: "Subtítulo principal del artículo, subtítulo principal del artículo, subtítulo principal del artículo",
     arrayContenidos: [
@@ -39,18 +39,18 @@ const Art: FC = () => {
             {(contenido as Formatos["solotexto"]).contenido0}
           </p>
         );
-      case "solofoto":
-        const soloFoto = contenido as Formatos["solofoto"];
-        return (
-          <div key={id} className="flex justify-center my-6">
-            <Image
-              src={soloFoto.srcFoto}
-              alt={soloFoto.idAltFoto}
-              width={parseInt(soloFoto.widthFoto)}
-              height={parseInt(soloFoto.heightFoto)}
-            />
-          </div>
-        );
+        case "solofoto":
+            const soloFoto = contenido as Formatos["solofoto"];
+            return (
+              <div key={id} className="flex justify-center my-6">
+                <Image
+                  src={soloFoto.srcFoto}
+                  alt={soloFoto.idAltFoto}
+                  width={parseInt(soloFoto.widthFoto)}
+                  height={parseInt(soloFoto.heightFoto)}
+                />
+              </div>
+            );
       case "textoLeft":
       case "textoRight":
         const { foto, texto } = contenido as Formatos["textoLeft"];

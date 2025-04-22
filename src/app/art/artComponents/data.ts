@@ -28,7 +28,7 @@ export const parrafosArray: {
             formato: "solofoto",
             contenido: {
               idAltFoto: "foto1",
-              srcFoto: "/images/pic1.jpg",
+              srcFoto: "https://previews.123rf.com/images/elenavdovina/elenavdovina1702/elenavdovina170200009/70843685-fondo-transparente-azul-categor%C3%ADas-de-productos-tienda-en-l%C3%ADnea-fondo-azul-sin-fisuras-con-los.jpg",
               widthFoto: "600",
               heightFoto: "400",
             },
@@ -38,7 +38,7 @@ export const parrafosArray: {
             contenido: {
               foto: {
                 idAltFoto: "foto2",
-                srcFoto: "/images/pic2.jpg",
+                srcFoto: "https://previews.123rf.com/images/elenavdovina/elenavdovina1702/elenavdovina170200009/70843685-fondo-transparente-azul-categor%C3%ADas-de-productos-tienda-en-l%C3%ADnea-fondo-azul-sin-fisuras-con-los.jpg",
                 widthFoto: "300",
                 heightFoto: "300",
               },
@@ -52,7 +52,7 @@ export const parrafosArray: {
             contenido: {
               foto: {
                 idAltFoto: "foto3",
-                srcFoto: "/images/pic3.jpg",
+                srcFoto: "https://previews.123rf.com/images/elenavdovina/elenavdovina1702/elenavdovina170200009/70843685-fondo-transparente-azul-categor%C3%ADas-de-productos-tienda-en-l%C3%ADnea-fondo-azul-sin-fisuras-con-los.jpg",
                 widthFoto: "300",
                 heightFoto: "300",
               },

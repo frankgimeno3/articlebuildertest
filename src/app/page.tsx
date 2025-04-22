@@ -79,10 +79,10 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen gap-6 p-4 bg-white text-gray-500 ">
       <div className="flex flex-row justify-between items-center">
-        <p className="text-xl font-bold">Galería de artículos</p>
-        <div className="p-5 bg-transparent border border-gray-100  rounded shadow px-2 py-1 flex gap-2 items-center">
+        <p className="text-3xl font-bold p-12 ">Galería de artículos</p>
+        <div className=" w-96 p-5 bg-transparent border border-gray-100  rounded shadow px-2 py-1 flex gap-2 items-center">
           <input
-            className="w-full bg-transparent outline-none"
+            className="w-full bg-transparent outline-none pl-3"
             placeholder="Buscar por coincidencias"
           />
           <button className="bg-white px-2 py-1 rounded hover:bg-gray-100">
@@ -93,7 +93,7 @@ export default function Home() {
 
       {/* Renderizado en filas */}
       {chunkedArticles.map((row, rowIndex) => (
-        <div key={rowIndex} className="flex flex-row gap-4">
+        <div key={rowIndex} className="flex flex-row gap-56">
           {row.map((article, index) => (
             <ArticleMiniature
               key={index}
